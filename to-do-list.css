@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.banner {
+    display: block;
+    margin: 30px auto 30px auto;
+    text-align: center;
+}
+
+#taskTable {
+    display: block;
+    width: 100%;
+    padding: 0%;
+
+    border-collapse: collapse;
+
+    border: 2px solid #000000;
+    margin: 20px auto 20px auto;
+}
+
+#taskTable th, #taskTable td {
+    padding: 10px;
+}
+
+.input-box {
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+input {
+    width: 500px;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
