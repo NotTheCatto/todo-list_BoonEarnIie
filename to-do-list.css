@@ -16,7 +16,7 @@ body {
 
 #taskTable {
     display: block;
-    width: 100%;
+    width: 90%;
     padding: 0%;
 
     border-collapse: collapse;
@@ -49,16 +49,20 @@ input {
 
 .statusComplete {
     background-color: #53fa4d;
+    transition: 0.5s;
 }
 
 .statusComplete > td:nth-child(2) {
     text-decoration: line-through;
+    transition: 1s;
 }
 
 .statusPending {
     background-color: #fa4d4d;
+    transition: 0.5s;
 }
 
 .statusPending > td:nth-child(2){
     text-decoration: none;
+    transition: 1s;
 }
