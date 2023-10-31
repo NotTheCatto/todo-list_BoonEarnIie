@@ -25,6 +25,10 @@ body {
     margin: 20px auto 20px auto;
 }
 
+#taskTable > thead {
+    background-color: #aaaaaa;
+}
+
 #taskTable th, #taskTable td {
     padding: 10px;
 }
@@ -43,8 +47,18 @@ input {
     width: 500px;
 }
 
-ul li.checked {
-    background: #888;
-    color: #fff;
+.statusComplete {
+    background-color: #53fa4d;
+}
+
+.statusComplete > td:nth-child(2) {
     text-decoration: line-through;
+}
+
+.statusPending {
+    background-color: #fa4d4d;
+}
+
+.statusPending > td:nth-child(2){
+    text-decoration: none;
 }
